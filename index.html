@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Pranaya Kaewkhiawluang</title>
+		<meta chartset="utf-8">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/cosmo/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/proximanova.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="header">
+				<ul class="nav nav-pills pull-right" role="tablist">
+					<li role="presentation"><a href="#">Home</a></li>
+					<li role="presentation"><a href="#">About</a></li>
+					<li role="presentation"><a href="#">Blog</a></li>
+					<li role="presentation"><a href="#">Login / Sign Up</a></li>
+				</ul>
+				<h3 class="text-muted">Job searcher</h3>
+			</div>
+
+			<div class="row search-area">
+				<div class="col-md-9 col-md-offset-1">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<i class="fa fa-search"></i>
+						</span>
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button" onClick="toggleBrowser()">Browse Categories</button>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row browser">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12"><h2><i class="fa fa-map-marker"></i> Location</h2></div>
+					</div>
+					<ul class="row locationlist">
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+						<li class="col-md-6"><a href="#">test location</a></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-12"><h2><i class="fa fa-tags"></i> Categories</h2></div>
+					</div>
+					<ul class="row categorylist">
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+						<li class="col-md-4"><a href="#">test categories</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row joblist">
+				<div class="col-md-12">
+					<h3>All jobs</h3>
+					<ul class="row joblists">
+						<li class="col-md-12">
+							<div class="row job-item">
+								<div class="col-md-4 job-title">Ruby Programmer</div>
+								<div class="col-md-3 job-company">Test Solution</div>
+								<div class="col-md-3 job-location">Phitsanulok, TH</div>
+								<div class="col-md-2 job-label"><span class="label label-warning">new</span></div>
+							</div>
+						</li>
+						<li class="col-md-12">
+							<div class="row job-item">
+								<div class="col-md-4 job-title">Java Programmer</div>
+								<div class="col-md-3 job-company">Test Solution</div>
+								<div class="col-md-3 job-location">Phitsanulok, TH</div>
+								<div class="col-md-2 job-label"><span class="label label-warning">new</span></div>
+							</div>
+						</li>
+						<li class="col-md-12">
+							<div class="row job-item">
+								<div class="col-md-4 job-title">Python Programmer</div>
+								<div class="col-md-3 job-company">Test Solution</div>
+								<div class="col-md-3 job-location">Phitsanulok, TH</div>
+								<div class="col-md-2 job-label"><span class="label label-warning">new</span></div>
+							</div>
+						</li>
+						<li class="col-md-12">
+							<div class="row job-item">
+								<div class="col-md-4 job-title">Scala Programmer</div>
+								<div class="col-md-3 job-company">Test Solution</div>
+								<div class="col-md-3 job-location">Phitsanulok, TH</div>
+								<div class="col-md-2 job-label"><span class="label label-warning">new</span></div>
+							</div>
+						</li>
+						<li class="col-md-12">
+							<div class="row job-item">
+								<div class="col-md-4 job-title">JavaScript Programmer</div>
+								<div class="col-md-3 job-company">Test Solution</div>
+								<div class="col-md-3 job-location">Phitsanulok, TH</div>
+								<div class="col-md-2 job-label"><span class="label label-warning">new</span></div>
+							</div>
+						</li>
+						<li class="col-md-12">
+							<div class="row job-item">
+								<div class="col-md-4 job-title">C++ Programmer</div>
+								<div class="col-md-3 job-company">Test Solution</div>
+								<div class="col-md-3 job-location">Phitsanulok, TH</div>
+								<div class="col-md-2 job-label"><span class="label label-warning">new</span></div>
+							</div>
+						</li>
+						<li class="col-md-12">
+							<div class="row job-item">
+								<div class="col-md-4 job-title">Go Programmer</div>
+								<div class="col-md-3 job-company">Test Solution</div>
+								<div class="col-md-3 job-location">Phitsanulok, TH</div>
+								<div class="col-md-2 job-label"><span class="label label-warning">new</span></div>
+							</div>
+						</li>
+					</ul>
+
+					<div id="main-pagination">
+						<ul class="pagination">
+							<li class="disabled"><a href="#">«</a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">»</a></li>
+						</ul>
+				</div>
+
+				</div>
+			</div>
+
+			<div class="row footer">
+				<div class="col-md-12">
+				<p>&copy; Pranaya Kaewkhiawluang 2014</p>
+			</div>
+			</div>
+
+		</div> <!-- /container -->
+
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script>
+			function toggleBrowser() {
+				$('.browser').toggle();
+			}
+		</script>
+	</body>
+</html>

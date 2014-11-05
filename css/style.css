@@ -1,0 +1,52 @@
+* {
+	font-family: 'proximanova', sans-serif;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.footer {
+	text-align: center;
+}
+
+#main-pagination {
+	text-align: center;
+}
+
+.search-area {
+	margin: 60px auto 0;
+}
+
+.browser {
+	margin: 60px auto 0;
+	display: none;
+}
+
+.joblist {
+	margin: 60px auto 0;
+}
+
+.locationlist, .categorylist, .joblists {
+	margin: 0;
+	padding: 0;
+}
+
+.locationlist li, .categorylist li, .joblists li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.job-item {
+	border-top: solid 1px #ddd;
+	height: 60px;
+}
+
+.job-item:last-child {
+	border-bottom: solid 1px #ddd;
+}
+
+.job-label {
+	text-align: right;
+}
