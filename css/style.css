@@ -1,52 +1,102 @@
-* {
-	font-family: 'proximanova', sans-serif;
-}
-
 .container {
+	background: #fff;
 	max-width: 960px;
+	border: solid 1px #ddd;
+	margin: 40px auto;
+	padding: 20px;
+	-webkit-box-shadow: 0 10px 10px -10px #848484;
+	-moz-box-shadow: 0 10px 10px -10px #848484;
+	box-shadow: 0 10px 10px -10px #848484;
 }
 
-.footer {
-	text-align: center;
+.navbar {
+	border-radius: 0px;
+	border-bottom: 0px;
+	margin-bottom: 40px;
 }
 
-#main-pagination {
-	text-align: center;
+.navbar-text {
+	color: #fff!important;
 }
 
-.search-area {
-	margin: 60px auto 0;
+.brand-logo {
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-.browser {
-	margin: 60px auto 0;
-	display: none;
+.carousel {
+	margin-top: -40px;
 }
 
-.joblist {
-	margin: 60px auto 0;
+.front-description {
+	margin-bottom: 40px;
 }
 
-.locationlist, .categorylist, .joblists {
+.front-promotion h1 {
+	color: #2fa4e7;
+}
+
+.list-card {
 	margin: 0;
 	padding: 0;
 }
 
-.locationlist li, .categorylist li, .joblists li {
+.card {
 	list-style-type: none;
-	padding: 0;
-	margin: 0;
+	margin: 40px 0;
 }
 
-.job-item {
-	border-top: solid 1px #ddd;
-	height: 60px;
+.short-information {
+	border: 1px solid #DDDDDD;
+	margin: 0 0 20px 0;
+	padding: 15px;
+	background: #FFFFFF;
+}
+.short-information h2 {
+	font-size: 1.4285em;
+	margin: 0 0 10px 0;
+}
+.short-information h3 {
+	font-size: 1.2857em;
+	margin: 0 0 10px 0;
 }
 
-.job-item:last-child {
-	border-bottom: solid 1px #ddd;
+.paper {
+	border: 1px solid #ddd;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	background-color: #FFFFFF;
+	margin: 0 0 20px 0;
+	padding: 15px;
 }
 
-.job-label {
-	text-align: right;
+.paper-no-border {
+	background-color: #FFFFFF;
+	padding: 1px;
+}
+
+.paper a {
+	word-wrap: break-word;
+}
+
+.path-header {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.path-header img {
+	width: 120px;
+	height: 120px;
+}
+
+.path-body {
+	margin-bottom: 15px;
+}
+
+.path-body h3 {
+	margin-top: 0;
+}
+
+.path-footer {
+	margin-top: 30px;
 }

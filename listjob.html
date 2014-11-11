@@ -1,0 +1,150 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Pranaya Kaewkhiawluang</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/cerulean/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container effect-7">
+			<header class="brand">
+				<div class="brand-logo">
+					<h1>ตลาดหางานคนพิการ</h1>
+					<h4>JOBS FOR PERSONS WITH DISABILITIES</h4>
+				</div>
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<p class="navbar-text">ตลาดหางานคนพิการ</p>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html"><i class="fa fa-home"></i> หน้าแรก</a></li>
+							<li><a href="listjob.html"><i class="fa fa-search"></i> ค้นหางาน</a></li>
+							<li><a href="news.html"><i class="fa fa-newspaper-o"></i> ข่าวสาร</a></li>
+							<li><a href="contact.html"><i class="fa fa-envelope-o"></i> ติดต่อเรา</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">นางสาวประณยา แก้วเขียวเหลือง <span class="fa fa-sort-down"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="profile.html">ข้อมูลส่วนตัว</a></li>
+									<li><a href="#">ออกจากระบบ</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</nav>
+			</header>
+
+			<!-- Begin page content -->
+			<div class="row">
+				<div class="col-md-12">
+					<ol class="breadcrumb">
+						<li><a href="#">หน้าแรก</a></li>
+						<li class="active">ค้นหางาน</li>
+					</ol>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col-md-8 col-md-left">
+					<div class="panel panel-primary panel-primary-fill">
+						<div class="panel-heading">
+							<h1 class="panel-title">ค้นหาประกาศงาน</h1>
+						</div>
+						<div class="panel-body">
+							<form id="search_form" class="" action="" method="GET">
+								<div class="col-md-6 col-md-left">
+									<div class="form-group">
+										<label for="select_position_group">ประเภทงาน</label>
+										<select id="select_position_group" class="form-control combobox" name="position_group_id" data-placeholder="เลือกประเภทงาน"><option value="" selected="">เลือกประเภทงาน</option><option value="14">การตลาด การประชาสัมพันธ์</option><option value="13">การผลิต</option><option value="7">การศึกษา วิชาการ</option><option value="24">ขนส่ง</option><option value="21">ขาย บริการลูกค้า พัฒนาธุรกิจ</option><option value="17">จัดซื้อ</option><option value="9">ท่องเที่ยว โรงแรม อาหารและเครื่อดื่ม</option><option value="3">ธนาคาร การเงิน</option><option value="2">ธุรการ ทรัพยากรบุคคล</option><option value="18">บริการเฉพาะทาง</option><option value="12">บริหาร</option><option value="1">บัญชี</option><option value="11">ประกันภัย</option><option value="20">ราชการ บริการสาธารณะ</option><option value="4">สุขภาพ โภชนาการ ความงาม</option><option value="19">อสังหาริมทรัพย์</option><option value="6">ออกแบบ</option><option value="15">โฆษณา สื่อ</option><option value="23">โทรคมนาคม</option><option value="10">ไอที</option><option value="25">อื่นๆ</option></select>
+									</div>
+								</div>
+								<div class="col-md-6 col-md-right">
+									<div class="form-group">
+										<label for="select_address_province">จังหวัด</label>
+										<select id="select_address_province" class="form-control combobox" name="address_province_id" data-placeholder="เลือกจังหวัด"><option value="" selected="">เลือกจังหวัด</option><option value="64">กระบี่</option><option value="1">กรุงเทพมหานคร</option><option value="56">กาญจนบุรี</option><option value="34">กาฬสินธุ์</option><option value="49">กำแพงเพชร</option><option value="28">ขอนแก่น</option><option value="13">จันทบุรี</option><option value="15">ฉะเชิงเทรา</option><option value="11">ชลบุรี</option><option value="9">ชัยนาท</option><option value="25">ชัยภูมิ</option><option value="69">ชุมพร</option><option value="72">ตรัง</option><option value="14">ตราด</option><option value="50">ตาก</option><option value="17">นครนายก</option><option value="58">นครปฐม</option><option value="36">นครพนม</option><option value="19">นครราชสีมา</option><option value="63">นครศรีธรรมราช</option><option value="47">นครสวรรค์</option><option value="3">นนทบุรี</option><option value="76">นราธิวาส</option><option value="43">น่าน</option><option value="77">บึงกาฬ</option><option value="20">บุรีรัมย์</option><option value="4">ปทุมธานี</option><option value="62">ประจวบคีรีขันธ์</option><option value="16">ปราจีนบุรี</option><option value="74">ปัตตานี</option><option value="5">พระนครศรีอยุธยา</option><option value="44">พะเยา</option><option value="65">พังงา</option><option value="73">พัทลุง</option><option value="53">พิจิตร</option><option value="52">พิษณุโลก</option><option value="66">ภูเก็ต</option><option value="32">มหาสารคาม</option><option value="37">มุกดาหาร</option><option value="75">ยะลา</option><option value="24">ยโสธร</option><option value="33">ร้อยเอ็ด</option><option value="68">ระนอง</option><option value="12">ระยอง</option><option value="55">ราชบุรี</option><option value="7">ลพบุรี</option><option value="40">ลำปาง</option><option value="39">ลำพูน</option><option value="22">ศรีสะเกษ</option><option value="35">สกลนคร</option><option value="70">สงขลา</option><option value="71">สตูล</option><option value="2">สมุทรปราการ</option><option value="60">สมุทรสงคราม</option><option value="59">สมุทรสาคร</option><option value="10">สระบุรี</option><option value="18">สระแก้ว</option><option value="8">สิงห์บุรี</option><option value="57">สุพรรณบุรี</option><option value="67">สุราษฎร์ธานี</option><option value="21">สุรินทร์</option><option value="51">สุโขทัย</option><option value="31">หนองคาย</option><option value="27">หนองบัวลำภู</option><option value="6">อ่างทอง</option><option value="26">อำนาจเจริญ</option><option value="29">อุดรธานี</option><option value="41">อุตรดิตถ์</option><option value="48">อุทัยธานี</option><option value="23">อุบลราชธานี</option><option value="45">เชียงราย</option><option value="38">เชียงใหม่</option><option value="61">เพชรบุรี</option><option value="54">เพชรบูรณ์</option><option value="30">เลย</option><option value="42">แพร่</option><option value="46">แม่ฮ่องสอน</option></select>
+									</div>
+								</div>
+
+								<div class="clearfix"></div>
+
+							</form>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="job_search_result">
+						<p class="muted">รายการที่ 1 - 3 จากทั้งหมด 3 รายการ</p>
+						<ul class="list-card">
+							<li class="card">
+								<div class="card-content">
+									<h4 class="card-header">
+										<a href="#">พนักงานบัญชี  ป.ตรี</a>
+									</h4>
+									<p class="card-sub-header">11 พฤศจิกายน 2557</p>
+									<div class="card-body">
+										<ul class="list-unstyled list-one-line">
+											<li><strong>ชื่อหน่วยงาน : </strong>บริษัท เอส เอช เค กรุ๊ป จำกัด</li>
+											<li><strong>สถานที่ปฏิบัติงาน : </strong>ต.เสนานิคม อ.จตุจักร จ.กรุงเทพมหานคร </li>
+											<li><strong>ตำแหน่ง : </strong>บัญชี</li>
+											<li><strong>ระดับเงินเดือน : </strong>11,000 บาท ถึง 15,000 บาท</li>
+											<li><strong>จำนวนที่เปิดรับ : </strong>2 อัตรา</li>
+											<li><strong>ประเภทความพิการ : </strong>พิการทางการได้ยินหรือสื่อความหมาย หรือ พิการทางร่างกายหรือการเคลื่อนไหว</li>
+										</ul>
+									</div>
+									<div class="card-bottom">
+									</div>
+								</div>
+							</li>
+						</ul>
+
+						<ul class="pagination">
+							<li class="disabled"><a href="">«</a></li>
+							<li class="active"><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">4</a></li>
+							<li><a href="">5</a></li>
+							<li><a href="">6</a></li>
+							<li><a href="">7</a></li>
+							<li><a href="">8</a></li>
+							<li><a href="">9</a></li>
+							<li><a href="">10</a></li>
+							<li><a href="">»</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-right">
+					<div class="short-information text-muted">งานล่าสุดจะถูกแสดงผลที่ด้านบนสุดของผลลัพธ์เสมอ หากมีปัญหาในการใช้่งานกรุณาติดต่อเจ้าหน้าที่</div>
+				</div>
+			</div>
+
+			<hr>
+			<div class="footer" role="content-info">
+				<p class="text-muted">
+				<span class="pull-left">Copyright 2014 Pranaya Kaewkhiawluang</span>
+				<span class="pull-right"><a href="listjob.html">ค้นหางาน</a> | <a href="news.html">ข่าวสาร</a> | <a href="contact.html">ติดต่อเรา</a></span>
+				</p>
+			</div>
+
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>
