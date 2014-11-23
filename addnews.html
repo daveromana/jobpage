@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Pranaya Kaewkhiawluang</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/cerulean/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container effect-7">
+			<header class="brand">
+				<div class="brand-logo">
+					<h1>ระบบสารสนเทศเพื่อสนับสนุนการจัดหางานสำหรับผู้พิการ</h1>
+				</div>
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<p class="navbar-text">งานเพื่อคนพิการ</p>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html"><i class="fa fa-home"></i> หน้าแรก</a></li>
+							<li><a href="listjob.html"><i class="fa fa-search"></i> ค้นหางาน</a></li>
+							<li><a href="news.html"><i class="fa fa-newspaper-o"></i> ข่าวสาร</a></li>
+							<li><a href="contact.html"><i class="fa fa-envelope-o"></i> ติดต่อเรา</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">นางสาวประณยา แก้วเขียวเหลือง <span class="fa fa-sort-down"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="profile.html">ข้อมูลส่วนตัว</a></li>
+									<li><a href="#">ออกจากระบบ</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</nav>
+			</header>
+
+			<!-- Begin page content -->
+			<div class="row">
+					<div id="content" class="col-md-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h1 class="panel-title">ประกาศข่าวสาร บทความ</h1>
+							</div>
+							<div class="panel-body">
+								<form class="form-horizontal">
+									<h2>ประกาศข่าวสารและบทความ</h2>
+									<div class="form-group">
+										<div class="col-md-12">
+											<input type="text" id="input_organization_name" class="form-control" name="organization_name" placeholder="หัวข้อ" required="" value="">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<textarea rows="20" id="input_organization_name" class="form-control" name="organization_name" placeholder="เนื้อหา" required="" value=""></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12 text-center">
+											<button type="submit" name="submit" class="btn btn-primary"><span class="glyphicon glyphicon-ok"></span> ลงประกาศ</button>
+											<button type="reset" name="reset" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span> ยกเลิก</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+			</div>
+
+			<hr>
+			<div class="footer" role="content-info">
+				<p class="text-muted">
+				<span class="pull-left">Copyright 2014 Pranaya Kaewkhiawluang</span>
+				<span class="pull-right"><a href="listjob.html">ค้นหางาน</a> | <a href="news.html">ข่าวสาร</a> | <a href="contact.html">ติดต่อเรา</a></span>
+				</p>
+			</div>
+
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>
