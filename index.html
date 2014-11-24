@@ -9,6 +9,16 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/cerulean/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<style>
+			.clock {
+				font-size: 44px;
+				color: #2eceee;
+			}
+			.count {
+				font-size: 38px;
+				color: #2eceee;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -16,6 +26,7 @@
 			<header class="brand">
 				<div class="brand-logo">
 					<h1>ระบบสารสนเทศเพื่อสนับสนุนการจัดหางานสำหรับผู้พิการ</h1>
+					<span>“ระบบสารสนเทศเพื่อสนับสนุนการจัดหางานสำหรับผู้พิการนี้ สำหรับผู้พิการที่มีความบกพร่อง ที่สามารถทำงานได้ตามสถานประกอบการ ประกอบด้วย บุคคลที่บกพร่องทางการมองเห็น บุคคลที่บกพร่องทางการได้ยิน  บุคคลที่มีความบกพร่องทางด้านร่างกายหรือสุขภาพ  และบุคคลที่มีความบกพร่องทางการพูดและภาษา”</span>
 				</div>
 				<nav class="navbar navbar-default">
 					<div class="navbar-header">
@@ -37,12 +48,12 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="dologin.html">ลงชื่อเข้าใช้ / ลงทะเบียน</a></li>
 							<!-- <li class="dropdown"> -->
-								<!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">คุณประณยา แก้วเขียวเหลือง (นายจ้าง) <span class="fa fa-sort-down"></span></a> -->
-								<!-- <ul class="dropdown-menu" role="menu"> -->
-								<!-- 	<li><a href="#">ข้อมูลส่วนตัว</a></li> -->
-								<!-- 	<li><a href="#">ตั้งค่าบัญชี</a></li> -->
-								<!-- 	<li><a href="#">ออกจากระบบ</a></li> -->
-								<!-- </ul> -->
+							<!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">คุณประณยา แก้วเขียวเหลือง (นายจ้าง) <span class="fa fa-sort-down"></span></a> -->
+							<!-- <ul class="dropdown-menu" role="menu"> -->
+							<!-- 	<li><a href="#">ข้อมูลส่วนตัว</a></li> -->
+							<!-- 	<li><a href="#">ตั้งค่าบัญชี</a></li> -->
+							<!-- 	<li><a href="#">ออกจากระบบ</a></li> -->
+							<!-- </ul> -->
 							<!-- </li> -->
 						</ul>
 					</div><!--/.nav-collapse -->
@@ -97,22 +108,69 @@
 			</div>
 
 			<div class="row front-newslist">
-				<div class="col-md-12">
-					<h1>ข่าวสาร บทความ</h1>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>งานเด่น งานล่าสุด</h1>
+						</div>
+						<div class="col-md-12">
+							<ul>
+								<li><a href="#">เปิดรับสมัครพนักงานคีย์บิล เจ้าหน้าที่ตรวจนับสินค้า</a></li>
+								<li><a href="#">เปิดรับสมัครพนักงานธุรการจำนวน</a></li>
+								<li><a href="#">เปิดรับสมัครพนักงานทำความสะอาด</a></li>
+								<li><a href="#">รับสมัคร เจ้าหน้าที่คลังสินค้า</a></li>
+								<li><a href="#">เจ้าหน้าที่เขียนแบบงานก่อสร้าง</a></li>
+							</ul>
+						</div>
+
+						<div class="col-md-12">
+							<h1>ข่าวสาร บทความ</h1>
+						</div>
+						<div class="col-md-12">
+							<ul>
+								<li><a href="#">เอไอเอส ปั้นผู้พิการเป็นนักคอลเซ็นเตอร์</a> <span class="label label-default">14 พฤศจิกายน 2557</span></li>
+								<li><a href="#">ขอเชิญร่วมกิจกรรมและซื้อผลิตภัณฑ์ดอกแก้วกัลยา สนับสนุนผู้พิการในวันคนพิการ ปี57</a> <span class="label label-default">14 พฤศจิกายน 2557</span></li>
+								<li><a href="#">ล่ามภาษามือ สื่อความเท่าเทียม</a> <span class="label label-default">13 พฤศจิกายน 2557</span></li>
+								<li><a href="#">แบ่งปันน้ำใจให้ผู้พิการ ที่ศูนย์ฝึกอาชีพคนพิการสระแก้ว จ.นครศรีธรรมราช</a> <span class="label label-default">13 พฤศจิกายน 2557</span></li>
+								<li><a href="#">ร่วมกันเฟ้นหาสุดยอด “สถานที่-องค์กร-บุคคล” อารยสถาปัตย์แห่งปี 2557</a> <span class="label label-default">10 พฤศจิกายน 2557</span></li>
+								<li><a href="#">สภาสังคมสงเคราะห์ฯ จัดงานวันคนพิการ</a> <span class="label label-default">10 พฤศจิกายน 2557</span></li>
+								<li><a href="#">สปสช.ปลื้มผ่านประเมินมาตรฐานดูแลข้อมูลผู้ป่วยบัตรทอง</a> <span class="label label-default">7 พฤศจิกายน 2557</span></li>
+								<li><a href="#">เอส แอนด์ พี มอบเงินสนับสนุนผลิตภัณฑ์คนพิการ โรงเรียนเศรษฐเสถียรในพระราชูปถัมภ์</a> <span class="label label-default">7 พฤศจิกายน 2557</span></li>
+								<li><a href="#">ไม้เท้าสั่นเตือนสิ่งกีดขวางเพื่อคนตาบอด</a> <span class="label label-default">6 พฤศจิกายน 2557</span></li>
+								<li><a href="#">เผยสถิติปี 57 นายจ้างรับคนพิการทำงานกว่า 2.4 หมื่นคน</a> <span class="label label-default">5 พฤศจิกายน 2557</span></li>
+							</ul>
+						</div>
+
+					</div>
 				</div>
-				<div class="col-md-12">
-					<ul>
-						<li><a href="#">เอไอเอส ปั้นผู้พิการเป็นนักคอลเซ็นเตอร์</a> <span class="label label-default">14 พฤศจิกายน 2557</span></li>
-						<li><a href="#">ขอเชิญร่วมกิจกรรมและซื้อผลิตภัณฑ์ดอกแก้วกัลยา สนับสนุนผู้พิการในวันคนพิการ ปี57</a> <span class="label label-default">14 พฤศจิกายน 2557</span></li>
-						<li><a href="#">ล่ามภาษามือ สื่อความเท่าเทียม</a> <span class="label label-default">13 พฤศจิกายน 2557</span></li>
-						<li><a href="#">แบ่งปันน้ำใจให้ผู้พิการ ที่ศูนย์ฝึกอาชีพคนพิการสระแก้ว จ.นครศรีธรรมราช</a> <span class="label label-default">13 พฤศจิกายน 2557</span></li>
-						<li><a href="#">ร่วมกันเฟ้นหาสุดยอด “สถานที่-องค์กร-บุคคล” อารยสถาปัตย์แห่งปี 2557</a> <span class="label label-default">10 พฤศจิกายน 2557</span></li>
-						<li><a href="#">สภาสังคมสงเคราะห์ฯ จัดงานวันคนพิการ</a> <span class="label label-default">10 พฤศจิกายน 2557</span></li>
-						<li><a href="#">สปสช.ปลื้มผ่านประเมินมาตรฐานดูแลข้อมูลผู้ป่วยบัตรทอง</a> <span class="label label-default">7 พฤศจิกายน 2557</span></li>
-						<li><a href="#">เอส แอนด์ พี มอบเงินสนับสนุนผลิตภัณฑ์คนพิการ โรงเรียนเศรษฐเสถียรในพระราชูปถัมภ์</a> <span class="label label-default">7 พฤศจิกายน 2557</span></li>
-						<li><a href="#">ไม้เท้าสั่นเตือนสิ่งกีดขวางเพื่อคนตาบอด</a> <span class="label label-default">6 พฤศจิกายน 2557</span></li>
-						<li><a href="#">เผยสถิติปี 57 นายจ้างรับคนพิการทำงานกว่า 2.4 หมื่นคน</a> <span class="label label-default">5 พฤศจิกายน 2557</span></li>
-					</ul>
+
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>ลิ้งค์ที่เกี่ยวข้อง</h3>
+						</div>
+						<div class="col-md-12">
+							<ul>
+								<li><a href="http://www.mol.go.th/">กระทรวงแรงงาน</a></li>
+								<li><a href="http://www.labour.go.th/th/">กรมสวัสดิการและคุ้มครองแรงงาน</a></li>
+								<li><a href="http://www.doe.go.th/">กรมการจัดหางาน</a></li>
+								<li><a href="http://nep.go.th/">สำนักงานส่งเสริมและพัฒนาคุณภาพชีวิตผู้พิการแห่งชาติ (พก)</a></li>
+								<li><a href="http://www.tddf.or.th/">มูลนิธิผู้พิการไทย</a></li>
+								<li><a href="http://www.apht-th.org/">สมาคมผู้พิการแห่งประเทศไทย</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="clock text-center"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h4>จำนวนผู้เข้าชม</h4>
+							<p class="count">1148</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- <div class="row"> -->
@@ -151,17 +209,42 @@
 			</div>
 
 			<hr>
-			<div class="footer" role="content-info">
-				<p class="text-muted">
-				<span class="pull-left">Copyright 2014 Pranaya Kaewkhiawluang</span>
-				<span class="pull-right"><a href="listjob.html">ค้นหางาน</a> | <a href="news.html">ข่าวสาร</a> | <a href="contact.html">ติดต่อเรา</a></span>
-				</p>
+			<div class="footer row" role="content-info">
+				<div class="col-md-6">
+					<p class="text-muted">
+					<span class="pull-left">Copyright 2014 ระบบสารสนเทศเพื่อสนับสนุนการจัดหางานสำหรับผู้พิการ</span><br>
+					<span class="pull-left">ภาควิชาวิทยาการคอมพิวเตอร์และเทคโนโลยีสารสนเทศ มหาวิทยาลัยนเรศวร จังหวัดพิษณุโลก</span><br>
+					<span class="pull-left">ติดต่อ Webmaster โทรศัพท์089-5623705, 088-2720685</span><br>
+					</p>
+				</div>
+				<div class="col-md-6">
+					<p class="text-muted">
+					<span class="pull-right"><a href="listjob.html">ค้นหางาน</a> | <a href="news.html">ข่าวสาร</a> | <a href="contact.html">ติดต่อเรา</a></span>
+					</p>
+				</div>
 			</div>
 
 		</div>
 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script>
+		function clock() {
+			var time = new Date(),
+					hours = time.getHours(),
+					minutes = time.getMinutes(),
+					seconds = time.getSeconds();
+			document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+
+			function harold(standIn) {
+				if (standIn < 10) {
+					standIn = '0' + standIn
+				}
+				return standIn;
+			}
+		}
+		setInterval(clock, 1000);
+		</script>
 	</body>
 
 </html>
